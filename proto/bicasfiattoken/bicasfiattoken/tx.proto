@@ -1,0 +1,7 @@
+syntax = "proto3";
+package yusupovanton.bicasfiattoken.bicasfiattoken;
+
+option go_package = "github.com/yusupovanton/BICASFiatToken/x/bicasfiattoken/types";
+
+// Msg defines the Msg service.
+service Msg {}

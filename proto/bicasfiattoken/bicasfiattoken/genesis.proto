@@ -1,0 +1,12 @@
+syntax = "proto3";
+package yusupovanton.bicasfiattoken.bicasfiattoken;
+
+import "gogoproto/gogo.proto";
+import "bicasfiattoken/bicasfiattoken/params.proto";
+
+option go_package = "github.com/yusupovanton/BICASFiatToken/x/bicasfiattoken/types";
+
+// GenesisState defines the bicasfiattoken module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
